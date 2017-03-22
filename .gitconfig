@@ -1,0 +1,17 @@
+[core]
+        editor = nano
+        pager = less -FRX
+[alias]
+        co = checkout
+        br = branch
+        ci = commit
+        st = status
+        amend = commit --amend --no-edit
+        d = diff --ignore-space-change
+        h = log -20 --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+        hh = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+[merge]
+        conflictstyle = diff3
+[user]
+        name = Loïc Knuchel
+        email = loicknuchel@gmail.com
